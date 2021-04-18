@@ -14,7 +14,7 @@
 
 <div id="popular_post_content" class="front-loop">
 
-<h2><i class="fa fa-flag"></i> 人気記事ランキング</h2>
+<h2><i class="fa fa-flag"></i>  人気記事ランキング</h2>
 <div class="wrap">
   <div class="front-loop-cont">
 <?php
