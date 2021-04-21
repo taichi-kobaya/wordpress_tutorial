@@ -231,4 +231,9 @@ dist
 # DS_Store
 .DS_Store
 
+# wordpress/wp-content/langages
+wordpress/wp-content/languages
+
+# DataBase
+db
 

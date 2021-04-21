@@ -1,6 +1,4 @@
-body {
-  color: #5e6265; }
-
+@charset "UTF-8";
 /*
 Theme Name:  xeory_extension-child
 Description: xeory_extension子テーマ
@@ -9,3 +7,7 @@ Author URI:  https://eeeeg.tokyo/
 Template:    xeory_extension
 Version:     0.0.1
 */
+body.home #popular_post_content .front-loop-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
