@@ -7,10 +7,6 @@ Author URI:  https://eeeeg.tokyo/
 Template:    xeory_extension
 Version:     0.0.1
 */
-body {
-  color: #5e6265;
-  font-size: 12px; }
-
 body.home #popular_post_content .front-loop-cont {
   display: flex;
   flex-direction: column;
