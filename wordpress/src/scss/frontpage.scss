@@ -1,0 +1,13 @@
+$dark_gray_color: #5e6265;
+
+body {
+  color: $dark_gray_color;
+  font-size: 12px;
+}
+
+body.home #popular_post_content .front-loop-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

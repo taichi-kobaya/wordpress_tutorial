@@ -1,8 +1,3 @@
-@charset "UTF-8";
-
-// sample.scss モジュール読み込み
-@import "sample.scss";
-
 /*
 Theme Name:  xeory_extension-child
 Description: xeory_extension子テーマ
@@ -11,3 +6,8 @@ Author URI:  https://eeeeg.tokyo/
 Template:    xeory_extension
 Version:     0.0.1
 */
+
+@charset "UTF-8";
+
+// frontpage.scss モジュール読み込み
+@import "frontpage.scss";
