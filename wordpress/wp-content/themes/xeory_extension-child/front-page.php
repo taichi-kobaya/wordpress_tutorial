@@ -80,7 +80,7 @@
 
 <div id="recent_post_content" class="front-loop">
 
-<h2><i class="fa fa-clock-o"></i> 最近の投稿</h2>
+<h2><i class="fa fa-clock-o"></i> 最新記事</h2>
 <div class="wrap">
   <div class="front-loop-cont">
 <?php
@@ -99,7 +99,7 @@
               ),
              'relation'=>'OR'
           ),
-            'showposts'=>5,
+            'showposts'=>10,
             'order'=>'DESC'
           );
 
