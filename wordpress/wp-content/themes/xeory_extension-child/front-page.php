@@ -135,6 +135,10 @@
 
 </div><!-- /front-root-cont -->
 
+<?php if (function_exists("pagination")) {
+    kriesi_pagination($additional_loop->max_num_pages);
+} ?>
+
 </div><!-- /wrap -->
 </div><!-- /recent_post_content -->
 
