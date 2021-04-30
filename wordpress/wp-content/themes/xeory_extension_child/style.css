@@ -25,11 +25,6 @@ body.home #swiper-slide .post__thumb--img a {
   background-size: cover;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 .content {
   margin: 0 auto;
   padding: 40px;
