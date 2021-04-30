@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*
+Theme Name:  xeory_extension-child
+Description: xeory_extension子テーマ
+Author:      EeeeG
+Author URI:  https://eeeeg.tokyo/
+Template:    xeory_extension
+Version:     0.0.1
+*/
+body.home #popular_post_content .front-loop-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body.home #swiper-slide .post__thumb--img {
+  margin: 0 0 15px;
+  }
+body.home #swiper-slide .post__thumb--img a {
+  padding-top: 62.5%;
+  width: 50%;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
