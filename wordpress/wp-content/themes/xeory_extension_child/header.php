@@ -100,9 +100,9 @@ wp_head();
         );?>  
       </nav>
     </div>
-    
+
     <?php } // if footer_nav ?>
-    
+
     <?php if( has_nav_menu( 'global_nav' ) ){ ?>
     <div id="header-gnav-area">
       <nav id="gnav" role="navigation" itemscope="itemscope" itemtype="http://scheme.org/SiteNavigationElement">
@@ -120,15 +120,15 @@ wp_head();
       </nav>
     </div>
     <?php } ?>
-    
+
     </div><!-- /header-right -->
-    
+
     <?php if( has_nav_menu('global_nav') || has_nav_menu('footer_nav') ){ ?>
 
       <div id="header-nav-btn">
         <a href="#"><i class="fa fa-align-justify"></i></a>
       </div>
-      
+
     <?php } ?>
   </div>
 </header>
@@ -137,11 +137,11 @@ wp_head();
 
   <nav id="gnav-sp">
     <div class="wrap">
-    
+
     <div class="grid-wrap">
             <div id="header-cont-about" class="grid-3">
           <?php if( has_nav_menu( 'footer_nav' ) ){ 
-          
+
             wp_nav_menu(
               array(
                 'theme_location'  => 'footer_nav',
@@ -168,22 +168,19 @@ wp_head();
           )
         );?>
         </div>
-        
+
     </div>
-    
+
     </div>
   </nav>
 
 
 <?php if( !(is_home() || is_front_page() || is_singular('lp') ) ){ ?>
-  
+
   <div class="breadcrumb-area">
     <div class="wrap">
       <?php bzb_breadcrumb(); ?>
     </div>
   </div>
-    
+
 <?php } ?>
-
-
-
